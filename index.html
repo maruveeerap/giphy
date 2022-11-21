@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #body{
+            width: 90%;
+            margin: auto;
+        }
+        #trendings{
+
+            display: grid;
+            width: 80%;
+            gap: 20px;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: auto;
+            text-align: center;
+            margin: auto;
+        
+        }
+        #trendings > img{
+           width: 80%;
+
+        }
+        #buttons{
+            display: flex;
+            gap: 20px;
+            margin: 50px;
+            width: 70%;
+            
+        }
+        h1{
+            text-align: center;
+            color: green;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>GIFS BY SHUKS BUDDY</h1>
+    <div id="buttons">
+        <input type="text" id="search" >
+        <button id="home">Home</button>
+        <button id="random">Random</button>
+        <button id="categories">Categories</button>
+        <button id="gify">Gif</button>
+        <button id="translate_btn">Translate</button>
+        
+
+
+    </div>
+    <span id="sorting"></span>
+    <div id="box">
+        <div id="trendings"></div>
+
+    </div>
+    
+ </div>
+    
+</body>
+</html>
+<script src="index.js"></script>
